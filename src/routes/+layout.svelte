@@ -13,8 +13,9 @@
     </ul>
     <ul>
       {#each links in link}
-      <li class="{current == `/${link}` ? 'contrast' : 'secondary'}">
-      <a href="/{link}">{link.toUpperCase()}</a>
+      <li class="{current == '/'.concat(link) ? 'contrast' : 'secondary'}">
+        <a href="/{link}">{link.toUpperCase()}</a>
+      </li>
       {/each}
     </ul>
   </nav>
