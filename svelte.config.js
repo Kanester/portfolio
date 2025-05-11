@@ -5,8 +5,7 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 const config = {
 	preprocess: vitePreprocess({
 		scss: {
-			includePaths: ['node_modules'],
-			prependData: "@use '@picocss/pico/scss/pico';"
+			includePaths: ['node_modules']
 		}
 	}),
 	kit: {
