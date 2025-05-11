@@ -4,6 +4,7 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
+		"deploy": "pnpm build && gh-pages -d build",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -22,6 +23,7 @@
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^10.0.1",
 		"eslint-plugin-svelte": "^3.0.0",
+		"gh-pages": "^6.3.0",
 		"globals": "^16.0.0",
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.3",
@@ -35,5 +37,10 @@
 		"onlyBuiltDependencies": [
 			"esbuild"
 		]
+	},
+	"homepage": "https://kanester.github.io/portfolio",
+	"repository": {
+		"type": "git",
+		"url": "https://kanester.github.io/portfolio.git"
 	}
 }
