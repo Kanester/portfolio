@@ -22,6 +22,7 @@
 </header>
 
 <main class="container-fluid">
+  <h1>current</h1>
   <slot></slot>
 </main>
 
