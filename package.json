@@ -4,7 +4,7 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"deploy": "pnpm build && gh-pages -d build",
+		"deploy": "vite build && gh-pages -d build",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -26,6 +26,7 @@
 		"globals": "^16.0.0",
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.3",
+		"sass": "^1.88.0",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
 		"typescript": "^5.0.0",
@@ -33,18 +34,15 @@
 		"vite": "^6.2.6"
 	},
 	"pnpm": {
-		"onlyBuiltDependencies": [
-			"@parcel/watcher",
-			"esbuild"
-		]
+		"onlyBuiltDependencies": ["@parcel/watcher", "esbuild"]
 	},
+	"dependencies": {
+		"@picocss/pico": "^2.1.1"
+	},
+
 	"homepage": "https://kanester.github.io/portfolio",
 	"repository": {
 		"type": "git",
 		"url": "https://kanester.github.io/portfolio.git"
-	},
-	"dependencies": {
-		"@picocss/pico": "^2.1.1",
-		"sass": "^1.88.0"
 	}
 }

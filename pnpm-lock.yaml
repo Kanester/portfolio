@@ -11,9 +11,6 @@ importers:
       '@picocss/pico':
         specifier: ^2.1.1
         version: 2.1.1
-      sass:
-        specifier: ^1.88.0
-        version: 1.88.0
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.5
@@ -48,6 +45,9 @@ importers:
       prettier-plugin-svelte:
         specifier: ^3.3.3
         version: 3.3.3(prettier@3.5.3)(svelte@5.28.2)
+      sass:
+        specifier: ^1.88.0
+        version: 1.88.0
       svelte:
         specifier: ^5.0.0
         version: 5.28.2
