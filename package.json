@@ -34,6 +34,7 @@
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
+			"@parcel/watcher",
 			"esbuild"
 		]
 	},
@@ -41,5 +42,9 @@
 	"repository": {
 		"type": "git",
 		"url": "https://kanester.github.io/portfolio.git"
+	},
+	"dependencies": {
+		"@picocss/pico": "^2.1.1",
+		"sass": "^1.88.0"
 	}
 }
