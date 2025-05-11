@@ -3,16 +3,14 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('sveltejs/kit').Config} **/
 const config = {
-	preprocess: 
-		vitePreprocess({
-			scss: {
-				prependData: `@use 'pico';`
-			}
-		})
-	,
+	preprocess: vitePreprocess({
+		scss: {
+			prependData: `@use '@picocss/pico/scss/pico' as *;`
+		}
+	}),
 	kit: {
 		adapter: adapter({
-			fallback: 'index.html'
+			fallback: '404.html'
 		}),
 		paths: {
 			base: '/portfolio'
