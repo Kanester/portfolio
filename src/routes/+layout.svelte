@@ -1,6 +1,6 @@
-<style lang="scss">
-  @use "pico";
-</style>
+<script lang="ts">
+  import "../styles/global.scss"
+</script>
 
 <header class="container-fluid">
   <nav>

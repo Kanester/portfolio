@@ -1,0 +1,4 @@
+@use '@picocss/pico/scss/pico' with (
+	$theme-color: 'default',
+	$enable-semantic-container: true
+);
