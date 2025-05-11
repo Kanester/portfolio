@@ -5,7 +5,7 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 const config = {
 	preprocess: vitePreprocess({
 		scss: {
-		  prependData: "@pico"
+		  prependData: "@use 'pico'"
 		}
 	}),
 	kit: {
