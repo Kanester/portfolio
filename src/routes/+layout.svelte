@@ -1,9 +1,14 @@
-<header>
-  <nav></nav>
+<header class="container-fluid">
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/projects">Projects</a>
+    <a href="/contact">Contact</a>
+  </nav>
 </header>
 
-<main>
+<main class="container-fluid">
   <slot></slot>
 </main>
 
-<footer>&copy; KanesterP</footer>
+<footer class="container-fluid">&copy; KanesterP</footer>
