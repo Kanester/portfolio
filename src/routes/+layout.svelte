@@ -12,7 +12,7 @@
       <li><strong>Kiov</strong></li>
     </ul>
     <ul>
-      {#each links in link}
+      {#each links as link}
       <li class="{current == '/'.concat(link) ? 'contrast' : 'secondary'}">
         <a href="/{link}">{link.toUpperCase()}</a>
       </li>
