@@ -1,3 +1,7 @@
+<style lang="scss">
+  @use "pico";
+</style>
+
 <header class="container-fluid">
   <nav>
     <ul>
