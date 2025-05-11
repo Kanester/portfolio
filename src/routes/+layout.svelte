@@ -1,6 +1,4 @@
-<script lang="ts">
-  import "../styles/global.scss"
-</script>
+
 
 <header class="container-fluid">
   <nav>
