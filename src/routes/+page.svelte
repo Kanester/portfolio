@@ -15,9 +15,7 @@
 
 <hr/>
 
-<div class="container-fluid pico-background-azure-50" data-theme="light">
-  <div class="container">
+<div class="container" data-theme="light">
     <h1>About Me!</h1>
     <p>Still under construction...</p>
-  </div>
 </div>

@@ -9,7 +9,7 @@
   $: current = $page.url.pathname.replace(/^\/portfolio/, "").replace(/\/$/, "") || "/";
 </script>
 
-<header class="container-fluid">
+<header class="container-fluid pico-background-jade-700">
   <div class="desktop-nav">
     <DesktopNav {base} {current} {links}/>
   </div>
@@ -26,4 +26,4 @@
 
 <hr/>
 
-<footer class="container-fluid">&copy; KanesterP</footer>
+<footer class="container-fluid pico-background-azure-50">&copy; KanesterP</footer>
