@@ -19,12 +19,12 @@
   </div>
 </header>
 
-<br/>
+<hr/>
 
 <main class="container-fluid">
   <slot></slot>
 </main>
 
-<br/>
+<hr/>
 
 <footer class="container-fluid">&copy; KanesterP</footer>

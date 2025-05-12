@@ -5,10 +5,43 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="color-scheme" content="light dark" />
-		%sveltekit.head%
 
-		<title>Kiov | Portfolio</title>
+		<!-- Error Page Meta -->
+		<title>Oops! Page Not Found | Kiov</title>
+		<meta
+			name="description"
+			content="The page you're looking for doesn't exist. Head back to Kiov's portfolio."
+		/>
+		<meta name="author" content="Kiov" />
+
+		<!-- Open Graph -->
+		<meta property="og:title" content="Page Not Found | Kiov" />
+		<meta
+			property="og:description"
+			content="404 error – Return to Kiov's portfolio to explore projects and stories."
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://kanester.github.io/portfolio/" />
+		<meta
+			property="og:image"
+			content="https://kanester.github.io/portfolio/preview.png"
+		/>
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="404 | Kiov's Portfolio" />
+		<meta
+			name="twitter:description"
+			content="Lost? Go back to explore Kiov's creative universe."
+		/>
+		<meta
+			name="twitter:image"
+			content="https://kanester.github.io/portfolio/preview.png"
+		/>
+
+		%sveltekit.head%
 	</head>
+
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.status%</div>
 		<div style="display: contents">%sveltekit.error.message%</div>
