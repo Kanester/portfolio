@@ -14,7 +14,7 @@
     </ul>
     <ul>
       {#each links as link}
-      <li class={current == link ? 'contrast' : 'secondary'}>
+      <li class:contrast={current == link} class:secondary={current != link}>
         <a href="{base + link}" sveltekit:prefetch>{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
         <div>{current == link ? "yes":"no"}</div>
         <div>{current} {link}</div>
