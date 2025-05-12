@@ -10,14 +10,15 @@
 <header class="container-fluid">
   <nav>
     <ul>
+      <!-- this is working-->
+      <li class="contrast">he</li>
+      <li class="secondary">hi</li>
       <li><strong>Kiov</strong></li>
     </ul>
     <ul>
       {#each links as link}
-      <li class="contrast">
-        <a href="{base + link}" sveltekit:prefetch>{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
-        <div>{current == link ? "yes":"no"}</div>
-        <div>{current} {link}</div>
+      <li>
+        <a href="{base + link}" sveltekit:prefetch class:contrast={current == link} class:secondary={current != link}>{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
       </li>
       {/each}
     </ul>
@@ -25,7 +26,6 @@
 </header>
 
 <main class="container-fluid">
-  <h1>{current}</h1>
   <slot></slot>
 </main>
 
