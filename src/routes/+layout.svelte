@@ -18,7 +18,7 @@
   </div>
 </header>
 
-<main class="pico-background-slate-50">
+<main class="pico-background-slate-900">
   <slot></slot>
 </main>
 
