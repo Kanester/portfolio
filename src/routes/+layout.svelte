@@ -5,6 +5,11 @@
   
   const links = ["/", "/about", "/projects", "/contact"];
   $: current = $page.url.pathname.replace(/^\/portfolio/, "").replace(/\/$/, "") || "/";
+  
+  let isClicked = false;
+  let clicked = () => {
+    isClicked = !isClicked;
+  };
 </script>
 
 <header class="container-fluid">
@@ -15,7 +20,7 @@
     <ul>
       {#each links as link}
       <li>
-        <a href="{base + link}" sveltekit:prefetch class:contrast={current == link} class:secondary={current != link}>{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
+        <a href={base + link} sveltekit:prefetch class:contrast={current == link} class:secondary={current != link}>{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
       </li>
       {/each}
     </ul>
@@ -23,14 +28,14 @@
 
   <nav class="phone">
     <ul>
-      <li class="secondary">&#9776;</li>
+      <li><button class="contrast" aria-label="Toggle menu" on:click={clicked}>&#9776;</button></li>
     </ul>
     
-    <aside>
+    <aside style:hidden={isClicked}>
     <ul>
       {#each links as link}
       <li>
-        <a class:contrast={current == link} class:secondary={current != link} href="{base + link}" sveltekit:prefetch>{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
+        <a class:contrast={current == link} class:secondary={current != link} href={base + link} sveltekit:prefetch>{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
       </li>
       {/each}
     </ul>
@@ -57,9 +62,7 @@
     display: none;
   }
   
-  .phone {
-    aside {
-      display: none;
-    }
+  .hidden {
+    display: none;
   }
 </style>
