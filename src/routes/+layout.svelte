@@ -3,7 +3,7 @@
   import {page} from "$app/stores";
   
   const links = ["/", "/about", "/projects", "/contact"];
-  $: current = $page.url.pathname.replace(/^\/portfolio/, "") || "/";
+  $: current = $page.url.pathnam.replace(/^\/portfolio/) || "/";
 </script>
 
 <header class="container-fluid">
@@ -14,9 +14,10 @@
     <ul>
       {#each links as link}
       <li class="{current == link ? 'contrast' : 'secondary'}">
-        <a href="{link}">{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
+        <a href="{'/portfolio'.concat(link)}">{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
         <div>{current == link ? "yes":"no"}</div>
         <div>{current} {link}</div>
+        <div>{"/portfolio".concat(link)}</div>
       </li>
       {/each}
     </ul>
