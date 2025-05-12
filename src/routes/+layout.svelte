@@ -8,9 +8,6 @@
 
 <header class="container-fluid">
   <nav>
-    <li class="secondary">hhello</li>
-    <li class="contrast">hehehe</li>
-    <li class="underline">Under</li>
     <ul>
       <li><strong>Kiov</strong></li>
     </ul>
@@ -18,6 +15,8 @@
       {#each links as link}
       <li class="{current == link ? 'contrast' : 'secondary'}">
         <a href="{link}">{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
+        <div>{current == link ? "yes":"no"}</div>
+        <div>{current} {link}</div>
       </li>
       {/each}
     </ul>
