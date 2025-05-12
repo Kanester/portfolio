@@ -28,18 +28,8 @@
 
   <nav class="phone">
     <ul>
-      <li><a class="secondary" href="javascript:void(0)" on:click={clicked} aria-label="Toggle menu">&#9776;</a></li>
+      <li><strong on:click={clicked}>&#9776;</strong></li>
     </ul>
-    
-    <aside class:hidden={!isClicked}>
-    <ul>
-      {#each links as link}
-      <li>
-        <a class:contrast={current == link} class:secondary={current != link} href={base + link} sveltekit:prefetch>{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
-      </li>
-      {/each}
-    </ul>
-    </aside>
     
     <ul>
       <li><strong>Kiov</strong></li>
@@ -49,6 +39,16 @@
       <li><strong>KV</strong></li>
     </ul>
   </nav>
+  
+  <aside class:hidden={!isClicked}>
+    <ul>
+      {#each links as link}
+      <li>
+        <a class:contrast={current == link} class:secondary={current != link} href={base + link} sveltekit:prefetch>{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
+      </li>
+      {/each}
+    </ul>
+  </aside>
 </header>
 
 <main class="container-fluid">
