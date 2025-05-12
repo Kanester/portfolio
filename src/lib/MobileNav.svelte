@@ -12,7 +12,7 @@
 <nav>
   <ul>
     <li>
-      <strong on:click={toggle}>&#9776;</strong>
+      <strong on:click={toggle} aria-label="Toggle navigation">&#9776;</strong>
     </li>
   </ul>
   
@@ -25,18 +25,22 @@
   </ul>
 </nav>
 
-<aside class:hidden={!isClicked}>
+{#if isClicked}
+<aside>
   <ul>
     {#each links as link}
     <li>
-      <a href={base + link}
-         sveltekit:prefetch
-         class:contrast={current == link}
-         class:secondary={current != link}
+      <a 
+        href={base + link}
+        sveltekit:prefetch
+        class:contrast={current === link}
+        class:secondary={current !== link}
+        aria-current={current === link ? "page" : undefined}
       >
-        {link == "/" ? "Home" : link.slice(1).toUpperCase()}
+        {link === "/" ? "Home" : link.slice(1).toUpperCase()}
       </a>
     </li>
     {/each}
   </ul>
 </aside>
+{/if}

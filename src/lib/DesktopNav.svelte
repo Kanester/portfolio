@@ -14,10 +14,11 @@
     <li>
       <a href={base + link}
          sveltekit:prefetch
-         class:contrast={current == link}
-         class:secondary={current != link}
+         class:contrast={current === link}
+         class:secondary={current !== link}
+         aria-current={current === link ? "link" : undefined}
       >
-        {link == "/" ? "Home" : link.slice(1).toUpperCase()}
+        {link === "/" ? "Home" : link.slice(1).toUpperCase()}
       </a>
     </li>
     {/each}

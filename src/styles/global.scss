@@ -1,39 +1,45 @@
-@use '@picocss/pico/scss/pico' as pico;
+@use '@picocss/pico/scss/pico'
+	with(
+		$theme-color: 'amber',
+		$enable-responsive-spacings: true,
+		$enable-responsive-typography: true
+	);
 @use '@picocss/pico/scss/settings' as settings;
 @use 'sass:map';
+@use 'sass:meta';
 
-$breakpoints: settings.$breakpoints;
+@mixin respond($min-size: null, $max-size) {
+	$min: 0;
 
-$sm-entry: map.get($breakpoints, sm);
-$sm-breakpoint: map.get($sm-entry, 'breakpoint');
-
-$md-entry: map.get($breakpoints, md);
-$md-breakpoont: map.get($md-entry, 'breakpoint');
-
-@media (max-width: $sm-breakpoint) {
-	.desktop-nav {
-		display: none;
+	@if $min-size != null {
+		$min-entry: map.get(settings.$breakpoints, $min-size);
+		$min: map.get($min-entry, 'breakpoint');
 	}
 
-	.mobile-nav {
-		display: block;
+	$max-entry: map.get(settings.$breakpoints, $max-size);
+	$max: map.get($max-entry, 'breakpoint');
 
-		.hidden {
-			display: none;
-		}
+	@media (min-width: $min) and (max-width: $max) {
+		@content;
 	}
 }
 
-@media (min-width: $md-breakpoont) {
+@include respond(null, sm) {
+	.desktop-nav {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: block;
+	}
+}
+
+@include respond(sm, md) {
 	.desktop-nav {
 		display: block;
 	}
 
 	.mobile-nav {
 		display: none;
-		
-		.hidden {
-		  display: none;
-		}
 	}
 }
