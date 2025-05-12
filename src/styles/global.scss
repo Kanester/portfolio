@@ -8,38 +8,29 @@
 @use 'sass:map';
 @use 'sass:meta';
 
-@mixin respond($min-size: null, $max-size) {
-	$min: 0;
+.desktop-nav {
+	display: block;
+}
 
-	@if $min-size != null {
-		$min-entry: map.get(settings.$breakpoints, $min-size);
-		$min: map.get($min-entry, 'breakpoint');
-	}
+.mobile-nav {
+	display: none;
+}
 
-	$max-entry: map.get(settings.$breakpoints, $max-size);
-	$max: map.get($max-entry, 'breakpoint');
+@mixin respond($size) {
+	$entry: map.get(settings.$breakpoints, $size);
+	$point: map.get($entry, 'breakpoint');
 
-	@media (min-width: $min) and (max-width: $max) {
+	@media (max-width: $point) {
 		@content;
 	}
 }
 
-@include respond(null, sm) {
+@include respond(sm) {
 	.desktop-nav {
 		display: none;
 	}
 
 	.mobile-nav {
 		display: block;
-	}
-}
-
-@include respond(sm, md) {
-	.desktop-nav {
-		display: block;
-	}
-
-	.mobile-nav {
-		display: none;
 	}
 }

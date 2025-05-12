@@ -8,10 +8,8 @@
   </hgroup>
   
   <div class="grid">
-    <div>
-      <a role="button" href="blog">Blog</a>
-      <a role="button" href="projects">Projects</a>
-    </div>
+    <a role="button" href="blog">Blog</a>
+    <a role="button" href="projects">Projects</a>
   </div>
 </div>
 
