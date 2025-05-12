@@ -1,4 +1,4 @@
-<section class="container-fluid pico-background-azure-850" data-theme="dark">
+<section class="container-fluid pico-background-azure-200" data-theme="dark">
   <div class="container">
     <hgroup>
       <h1>Hi y'all! I'm Kiö.</h1>
@@ -15,7 +15,7 @@
   </div>
 </section>
 
-<section class="pico-background-azure-200" data-theme="light">
+<section class="pico-background-azure-850" data-theme="light">
   <div class="container-fluid">
     <div class="container">
       <h1>About Me!</h1>

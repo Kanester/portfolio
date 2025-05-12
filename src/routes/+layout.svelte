@@ -22,4 +22,6 @@
   <slot></slot>
 </main>
 
-<footer class="container-fluid pico-background-slate-900" data-theme="dark">&copy; KanesterP</footer>
+<footer class="container-fluid pico-background-slate-900" data-theme="dark">
+  <h5>&copy; KanesterP</h5>
+</footer>
