@@ -9,7 +9,7 @@
   }
 </script>
 
-<nav class="mobile-nav">
+<nav>
   <ul>
     <li>
       <strong on:click={toggle}>&#9776;</strong>

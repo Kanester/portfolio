@@ -10,8 +10,13 @@
 </script>
 
 <header class="container-fluid">
-  <DesktopNav {base} {current} {links}/>
-  <MobileNav {base} {current} {links}/>
+  <div class="desktop-nav">
+    <DesktopNav {base} {current} {links}/>
+  </div>
+  
+  <div class="mobile-nav">
+    <MobileNav {base} {current} {links}/>
+  </div>
 </header>
 
 <main class="container-fluid">

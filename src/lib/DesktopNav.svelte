@@ -4,7 +4,7 @@
   export let links = [];
 </script>
 
-<nav class="desktop-nav">
+<nav>
   <ul>
     <li><strong>Kiov</strong></li>
   </ul>
