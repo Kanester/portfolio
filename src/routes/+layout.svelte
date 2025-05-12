@@ -22,6 +22,10 @@
   </nav>
 
   <nav class="phone">
+    <ul>
+      <li class="secondary">&#9776;</li>
+    </ul>
+    
     <aside>
     <ul>
       {#each links as link}
@@ -31,8 +35,13 @@
       {/each}
     </ul>
     </aside>
+    
     <ul>
       <li><strong>Kiov</strong></li>
+    </ul>
+    
+    <ul>
+      <li><strong>KV</strong></li>
     </ul>
   </nav>
 </header>
