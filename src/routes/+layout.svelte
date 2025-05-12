@@ -13,7 +13,6 @@
   <div class="desktop-nav">
     <DesktopNav {base} {current} {links}/>
   </div>
-  
   <div class="mobile-nav">
     <MobileNav {base} {current} {links}/>
   </div>
@@ -21,7 +20,7 @@
 
 <hr/>
 
-<main class="container-fluid">
+<main class="container-fluid pico-background-azure-850">
   <slot></slot>
 </main>
 
