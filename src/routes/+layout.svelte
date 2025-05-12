@@ -58,29 +58,3 @@
 </main>
 
 <footer class="container-fluid">&copy; KanesterP</footer>
-
-<style lang="scss">
-  @media (min-width: var(--pico-breakpoints-sm)) {
-    .desktop-nav {
-      display: none;
-    }
-    
-    .mobile-nav {
-      display: block;
-      
-      .hidden {
-        display: none;
-      }
-    }
-  }
-  
-  @media (min-width: var(--pico-breakpoints-md)) {
-    .desktop-nav {
-      display: block;
-    }
-    
-    .mobile-nav {
-      display: none;
-    }
-  }
-</style>

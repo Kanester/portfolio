@@ -1,1 +1,16 @@
-@use '@picocss/pico/scss/pico'
+@use '@picocss/pico/scss/pico' as pico;
+@use '@picocss/pico/scss/settings' as b;
+
+@media (max-width: map.get(b.$breakpoints, sm).breakpoint) {
+	.desktop-nav {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: block;
+
+		.hidden {
+			display: none;
+		}
+	}
+}
