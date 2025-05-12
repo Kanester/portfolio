@@ -1,4 +1,4 @@
-<div class="container" data-theme="dark">
+<div class="container pico-background-azure-850" data-theme="dark">
   <hgroup>
     <h1>Hi y'all! I'm Kiö.</h1>
     <p>A builder of lots of weird stuff on the web, sometimes on CLI; yet they work&#x2014;somehow.. (&#x2060;&#x665;&#x2060;&#x21BC;&#x2060;_&#x2060;&#x21BC;&#x2060;)</p>
@@ -15,7 +15,7 @@
 
 <hr/>
 
-<div class="container" data-theme="light">
+<div class="container pico-background-azure-50" data-theme="light">
   <h1>About Me!</h1>
   <p>Still under construction...</p>
 </div>
