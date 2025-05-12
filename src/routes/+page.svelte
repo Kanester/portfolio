@@ -15,7 +15,7 @@
 
 <hr/>
 
-<div class="container about" data-theme="light">
+<div class="container-fluid about" data-theme="light">
     <h1>About Me!</h1>
     <p>Still under construction...</p>
 </div>
