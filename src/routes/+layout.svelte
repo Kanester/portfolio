@@ -1,6 +1,7 @@
 <script lang="ts">
   import "../styles/global.scss";
   import {page} from "$app/stores";
+  import {base} from "$app/paths"
   
   const links = ["/", "/about", "/projects", "/contact"];
   $: current = $page.url.pathname.replace(/^\/portfolio/, "").replace(/\/$/, "") || "/";
@@ -14,7 +15,7 @@
     <ul>
       {#each links as link}
       <li class="{current == link ? 'contrast' : 'secondary'}">
-        <a href="{link}" sveltekit:prefetch>{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
+        <a href="{base + link}" sveltekit:prefetch>{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
         <div>{current == link ? "yes":"no"}</div>
         <div>{current} {link}</div>
       </li>
