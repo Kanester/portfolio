@@ -24,7 +24,7 @@ $md-breakpoont: map.get($md-entry, 'breakpoint');
 	}
 }
 
-@media (min-width: $md-breakpoont) {
+@media (max-width: $md-breakpoont) {
 	.desktop-nav {
 		display: block;
 	}
