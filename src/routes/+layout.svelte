@@ -10,9 +10,6 @@
 <header class="container-fluid">
   <nav>
     <ul>
-      <!-- this is working-->
-      <li class="contrast">he</li>
-      <li class="secondary">hi</li>
       <li><strong>Kiov</strong></li>
     </ul>
     <ul>
