@@ -13,8 +13,8 @@
     </ul>
     <ul>
       {#each links as link}
-      <li class="{current == "/portfolio".concat(link) ? 'contrast' : 'secondary'}">
-        <a href="{link}">{link.toUpperCase()}</a>
+      <li class="{current == link ? 'contrast' : 'secondary'}">
+        <a href="{link}">{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
       </li>
       {/each}
     </ul>
