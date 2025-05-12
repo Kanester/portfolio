@@ -31,5 +31,9 @@ $md-breakpoont: map.get($md-entry, 'breakpoint');
 
 	.mobile-nav {
 		display: none;
+		
+		.hidden {
+		  display: none;
+		}
 	}
 }
