@@ -8,9 +8,9 @@
 
 <header class="container-fluid">
   <nav>
-    <p class="secondary">hhello</p>
-    <p class="contrast">hehehe</p>
-    <p class="underline">Under</p>
+    <li class="secondary">hhello</li>
+    <li class="contrast">hehehe</li>
+    <li class="underline">Under</li>
     <ul>
       <li><strong>Kiov</strong></li>
     </ul>
