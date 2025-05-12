@@ -7,7 +7,7 @@
   $: current = $page.url.pathname.replace(/^\/portfolio/, "").replace(/\/$/, "") || "/";
 </script>
 
-<header class="container-fluid">
+<header class="container">
   <nav>
     <ul>
       <li><strong>Kiov</strong></li>
@@ -22,8 +22,8 @@
   </nav>
 </header>
 
-<main class="container-fluid">
+<main class="container">
   <slot></slot>
 </main>
 
-<footer class="container-fluid">&copy; KanesterP</footer>
+<footer class="container">&copy; KanesterP</footer>
