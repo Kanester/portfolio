@@ -3,7 +3,7 @@
   import {page} from "$app/stores";
   
   const links = ["/", "/about", "/projects", "/contact"];
-  $: current = $page.url.pathnam.replace(/^\/portfolio/) || "/";
+  $: current = $page.url.pathname.replace(/^\/portfolio/, "").replace(/\/$/, "") || "/";
 </script>
 
 <header class="container-fluid">
@@ -14,10 +14,9 @@
     <ul>
       {#each links as link}
       <li class="{current == link ? 'contrast' : 'secondary'}">
-        <a href="{'/portfolio'.concat(link)}">{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
+        <a href="{link}" sveltekit:prefetch>{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
         <div>{current == link ? "yes":"no"}</div>
         <div>{current} {link}</div>
-        <div>{"/portfolio".concat(link)}</div>
       </li>
       {/each}
     </ul>
