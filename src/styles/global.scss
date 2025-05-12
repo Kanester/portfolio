@@ -1,9 +1,10 @@
 @use '@picocss/pico/scss/pico' as pico;
 @use '@picocss/pico/scss/settings' as settings;
+@use 'sass:map';
 
-$breakpoints: map.get(settings.$settings, "breakpoints");
+$breakpoints: map.get(settings.$settings, 'breakpoints');
 $sm-entry: map.get($breakpoints, sm);
-$sm-breakpoint: map.get($sm-entry, "breakpoint");
+$sm-breakpoint: map.get($sm-entry, 'breakpoint');
 
 @media (max-width: $sm-breakpoint) {
 	.desktop-nav {
