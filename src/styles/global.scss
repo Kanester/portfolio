@@ -4,7 +4,7 @@
 		$enable-responsive-spacings: true,
 		$enable-responsive-typography: true
 	);
-@use '@picocss/pico/scss/utilities'
+@use '@picocss/pico/scss/colors/utilities'
 	with(
 		$palette: (
 			'color-families': (
