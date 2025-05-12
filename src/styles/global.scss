@@ -14,8 +14,7 @@
 				pumpkin,
 				amber
 			)
-		),
-		$background-colors: true
+		)
 	);
 @use '@picocss/pico/scss/settings' as settings;
 @use 'sass:map';
