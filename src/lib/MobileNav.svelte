@@ -23,20 +23,20 @@
   <ul>
     <li><strong>KV</strong></li>
   </ul>
-  
-  <aside class:hidden={!isClicked}>
-    <ul>
-      {#each links as link}
-      <li>
-        <a href={base + current}
-           sveltekit:prefetch
-           class:contrast={current == link}
-           class:secondary={current != link}
-        >
-          {link == "/" ? "Home" : link.slice(1).toUpperCase()}
-        </a>
-      </li>
-      {/each}
-    </ul>
-  </aside>
 </nav>
+
+<aside class:hidden={!isClicked}>
+  <ul>
+    {#each links as link}
+    <li>
+      <a href={base + current}
+         sveltekit:prefetch
+         class:contrast={current == link}
+         class:secondary={current != link}
+      >
+        {link == "/" ? "Home" : link.slice(1).toUpperCase()}
+      </a>
+    </li>
+    {/each}
+  </ul>
+</aside>
