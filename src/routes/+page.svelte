@@ -15,4 +15,5 @@
 
 <div class="container" data-theme="light">
   <h1>About Me!</h1>
+  <p>Still under construction...</p>
 </div>
