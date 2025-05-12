@@ -20,6 +20,14 @@
 @use 'sass:map';
 @use 'sass:meta';
 
+body {
+	background-color: #052940;
+}
+
+footer {
+  background-color: #B7D9FC;
+}
+
 .desktop-nav {
 	display: block;
 }
