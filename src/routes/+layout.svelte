@@ -28,10 +28,10 @@
 
   <nav class="phone">
     <ul>
-      <li><a href="javascript:void(0)" on:click={clicked} aria-label="Toggle menu">&#9776;</a></li>
+      <li><a class="secondary" href="javascript:void(0)" on:click={clicked} aria-label="Toggle menu">&#9776;</a></li>
     </ul>
     
-    <aside class:hidden={isClicked}>
+    <aside class:hidden={!isClicked}>
     <ul>
       {#each links as link}
       <li>
