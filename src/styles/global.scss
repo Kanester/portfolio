@@ -1,8 +1,21 @@
 @use '@picocss/pico/scss/pico'
 	with(
-		$theme-color: 'amber',
+		$theme-color: 'jade',
 		$enable-responsive-spacings: true,
 		$enable-responsive-typography: true
+	);
+@use '@picocss/pico/scss/utilities'
+	with(
+		$palette: (
+			'color-families': (
+				jade,
+				azure,
+				slate,
+				pumpkin,
+				amber
+			)
+		),
+		$background-colors: true
 	);
 @use '@picocss/pico/scss/settings' as settings;
 @use 'sass:map';
