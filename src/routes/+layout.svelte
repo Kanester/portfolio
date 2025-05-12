@@ -40,7 +40,7 @@
     </ul>
   </nav>
   
-  <aside class:hidden={!isClicked}>
+  <aside class:hidden={!isClicked} class="container-fluid">
     <ul>
       {#each links as link}
       <li>
