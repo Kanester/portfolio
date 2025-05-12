@@ -5,7 +5,7 @@
   import DesktopNav from "$lib/DesktopNav.svelte";
   import MobileNav from "$lib/MobileNav.svelte";
   
-  const links = ["/", "/about", "/projects", "/contact"];
+  const links = ["/", "/projects"];
   $: current = $page.url.pathname.replace(/^\/portfolio/, "").replace(/\/$/, "") || "/";
 </script>
 
@@ -19,8 +19,12 @@
   </div>
 </header>
 
+<br/>
+
 <main class="container-fluid">
   <slot></slot>
 </main>
+
+<br/>
 
 <footer class="container-fluid">&copy; KanesterP</footer>
