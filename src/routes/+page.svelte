@@ -16,8 +16,10 @@
 </section>
 
 <section class="pico-background-azure-100" data-theme="light">
-  <div class="container">
-    <h1>About Me!</h1>
-    <p>Still under construction...</p>
+  <div class="container-fluid">
+    <div class="container">
+      <h1>About Me!</h1>
+      <p>Still under construction...</p>
+    </div>
   </div>
 </section>
