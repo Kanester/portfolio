@@ -3,10 +3,14 @@
 @use 'sass:map';
 
 $breakpoints: settings.$breakpoints;
+
 $sm-entry: map.get($breakpoints, sm);
 $sm-breakpoint: map.get($sm-entry, 'breakpoint');
 
-@media (max-width: $sm-breakpoint) {
+$md-entry: map.get($breakpoints, md);
+$md-breakpoont: map.get($md-entry, 'breakpoint');
+
+@media (min-width: $sm-breakpoint) {
 	.desktop-nav {
 		display: none;
 	}
@@ -17,5 +21,15 @@ $sm-breakpoint: map.get($sm-entry, 'breakpoint');
 		.hidden {
 			display: none;
 		}
+	}
+}
+
+@media (min-width: $md-breakpoont) {
+	.desktop-nav {
+		display: block;
+	}
+
+	.mobile-nav {
+		display: none;
 	}
 }
