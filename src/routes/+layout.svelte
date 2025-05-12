@@ -7,8 +7,8 @@
   $: current = $page.url.pathname.replace(/^\/portfolio/, "").replace(/\/$/, "") || "/";
 </script>
 
-<header class="container">
-  <nav>
+<header class="container-fluid">
+  <nav class="desktop">
     <ul>
       <li><strong>Kiov</strong></li>
     </ul>
@@ -20,10 +20,25 @@
       {/each}
     </ul>
   </nav>
+
+  <nav class="phone">
+    <aside>
+    <ul>
+      {#each links as link}
+      <li>
+        <a class:contrast={current == link} class:secondary={current != link} href="{base + link}" sveltekit:prefetch>{link == "/" ? "Home" : link.slice(1).toUpperCase()}</a>
+      </li>
+      {/each}
+    </ul>
+    </aside>
+    <ul>
+      <li><strong>Kiov</strong></li>
+    </ul>
+  </nav>
 </header>
 
-<main class="container">
+<main class="container-fluid">
   <slot></slot>
 </main>
 
-<footer class="container">&copy; KanesterP</footer>
+<footer class="container-fluid">&copy; KanesterP</footer>
