@@ -18,12 +18,8 @@
   </div>
 </header>
 
-<hr/>
-
 <main class="container-fluid">
   <slot></slot>
 </main>
-
-<hr/>
 
 <footer class="container-fluid">&copy; KanesterP</footer>
