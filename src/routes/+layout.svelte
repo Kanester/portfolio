@@ -18,8 +18,8 @@
   </div>
 </header>
 
-
-<slot></slot>
-
+<main>
+  <slot></slot>
+</main>
 
 <footer class="container-fluid">&copy; KanesterP</footer>
