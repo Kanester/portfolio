@@ -2,7 +2,7 @@
 @use '@picocss/pico/scss/settings' as settings;
 @use 'sass:map';
 
-$breakpoints: map.get(settings.$settings, 'breakpoints');
+$breakpoints: settings.$breakpoints;
 $sm-entry: map.get($breakpoints, sm);
 $sm-breakpoint: map.get($sm-entry, 'breakpoint');
 
