@@ -18,7 +18,7 @@
   </div>
 </header>
 
-<main class="container-fluid">
+<main>
   <slot></slot>
 </main>
 
