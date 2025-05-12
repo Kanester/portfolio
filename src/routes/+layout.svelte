@@ -42,3 +42,15 @@
 </main>
 
 <footer class="container-fluid">&copy; KanesterP</footer>
+
+<style lang="scss">
+  .desktop {
+    display: none;
+  }
+  
+  .phone {
+    aside {
+      display: none;
+    }
+  }
+</style>
