@@ -15,8 +15,6 @@
   </div>
 </section>
 
-<hr/>
-
 <section class="pico-background-azure-200" data-theme="light">
   <div class="container-fluid">
     <div class="container">
