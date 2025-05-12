@@ -2,7 +2,7 @@
   import "../styles/global.scss";
   import {page} from "$app/stores";
   
-  const links = ["home", "about", "projects", "contact"];
+  const links = ["/", "/about", "/projects", "/contact"];
   $: current = $page.url.pathname;
 </script>
 
@@ -13,8 +13,8 @@
     </ul>
     <ul>
       {#each links as link}
-      <li class="{current == `/${link}` ? 'contrast' : 'secondary'}">
-        <a href="/{link}">{link.toUpperCase()}</a>
+      <li class="{current == "/portfolio".concat(link) ? 'contrast' : 'secondary'}">
+        <a href="{link}">{link.toUpperCase()}</a>
       </li>
       {/each}
     </ul>
