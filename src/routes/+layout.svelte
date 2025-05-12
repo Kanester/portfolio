@@ -23,6 +23,7 @@
 
 <main class="container-fluid">
   <h1>{current}</h1>
+  <h1>{links}</h1>
   <slot></slot>
 </main>
 
