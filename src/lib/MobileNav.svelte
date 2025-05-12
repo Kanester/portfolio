@@ -29,7 +29,7 @@
   <ul>
     {#each links as link}
     <li>
-      <a href={base + current}
+      <a href={base + link}
          sveltekit:prefetch
          class:contrast={current == link}
          class:secondary={current != link}
