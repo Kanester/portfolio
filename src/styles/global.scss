@@ -7,6 +7,10 @@ $secondary: #393e46;
 $tertiary: #948979;
 $quadiary: #dfd0b8;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	background-color: $primary;
 }
