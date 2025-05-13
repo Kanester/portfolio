@@ -8,7 +8,7 @@ $tertiary: #948979;
 $quadiary: #dfd0b8;
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -21,9 +21,9 @@ section {
 }
 
 section[data-theme='dark'] {
-  p {
-    color: white;
-  }
+	p {
+		color: white;
+	}
 }
 
 .hero {
@@ -38,9 +38,10 @@ section[data-theme='dark'] {
 
 .about {
 	background-color: $tertiary;
-	
+
 	a {
-	  color: whitesmoke;
+		color: springgreen;
+		text-decoration-color: mediumspringgreen;
 	}
 }
 
