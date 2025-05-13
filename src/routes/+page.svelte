@@ -15,7 +15,7 @@
   </div>
 </section>
 
-<section class="about" data-theme="light">
+<section class="about" data-theme="dark">
   <div class="container-fluid">
     <div class="container">
       <h1>About Me!</h1>
@@ -24,7 +24,7 @@
   </div>
 </section>
 
-<section class="contact" data-theme="dark">
+<section class="contact" data-theme="light">
   <div class="container">
     <div class="container-fluid">
       <h1>Contact Me</h1>
