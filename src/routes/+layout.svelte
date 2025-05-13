@@ -27,6 +27,8 @@
       <li><a href="#contact" class="contrast">Contact</a></li>
     </ul>
   </nav>
-  <p>Built with svelte + termux</p>
-  <p>No bugs were harmed during development—only me &#x25C9;&#x2060;&#x203F;&#x2060;&#x25C9;</p>
+  <hgroup>
+    <p>Built with svelte + termux</p>
+    <p>No bugs were harmed during development—only me &#x25C9;&#x2060;&#x203F;&#x2060;&#x25C9;</p>
+  </hgroup>
 </footer>
