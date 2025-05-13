@@ -17,11 +17,11 @@
   </ul>
   
   <ul>
-    <li><strong>Kiov</strong></li>
+    <li><strong style='font-family: "Georgia", "Times New Roman", serif;'>Kiov</strong></li>
   </ul>
   
   <ul>
-    <li><strong>KV</strong></li>
+    <li><strong class="logo">KV</strong></li>
   </ul>
 </nav>
 

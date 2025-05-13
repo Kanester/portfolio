@@ -4,7 +4,7 @@
 
 <nav>
   <ul>
-    <li><strong>Kiov</strong></li>
+    <li><strong class="logo">Kiov</strong></li>
   </ul>
   
   <Links />
