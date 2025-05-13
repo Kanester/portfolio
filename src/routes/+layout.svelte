@@ -13,8 +13,6 @@
   </div>
 </header>
 
-<hr/>
-
 <main>
   <slot></slot>
 </main>
