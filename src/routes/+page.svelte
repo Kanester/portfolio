@@ -8,7 +8,7 @@
       <p><i>Tell me I'm wrong</i> &#x2192;<a class="contrast" href="#contact">Contact</p>
     </hgroup>
       
-    <div class="">
+    <div class="herob">
       <a role="button" href="blog">Blog</a>
       <a role="button" href="projects">Projects</a>
     </div>
