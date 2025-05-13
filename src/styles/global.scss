@@ -12,26 +12,25 @@ html {
 }
 
 body {
+	margin: 0;
 	background-color: $primary;
 }
 
 section {
-	padding: 1rem 0;
 	margin: 0;
-}
+	padding: 1rem 0;
 
-section[data-theme='dark'] {
-	p {
-		color: white;
+	&[data-theme='dark'] {
+		p {
+			color: white;
+		}
 	}
 }
 
 .hero {
 	background-color: $secondary;
-}
 
-.herob {
-	a {
+	> div a {
 		margin: 1rem 0;
 	}
 }
@@ -39,13 +38,13 @@ section[data-theme='dark'] {
 .about {
 	background-color: $tertiary;
 
-	a {
-		color: springgreen;
-		text-decoration-color: mediumspringgreen;
-	}
-	
 	p {
-	  color: antiquewhite;
+		color: #fffaf0;
+	}
+
+	a {
+		color: #90ee90;
+		text-decoration-color: mediumspringgreen;
 	}
 }
 
@@ -62,10 +61,9 @@ section[data-theme='dark'] {
 }
 
 @mixin respond($size) {
-	$entry: map.get(pico.$breakpoints, $size);
-	$point: map.get($entry, 'breakpoint');
+	$breakpoint: map.get(map.get(pico.$breakpoints, $size), 'breakpoint');
 
-	@media (max-width: $point) {
+	@media (max-width: $breakpoint) {
 		@content;
 	}
 }
@@ -74,7 +72,6 @@ section[data-theme='dark'] {
 	.desktop-nav {
 		display: none;
 	}
-
 	.mobile-nav {
 		display: block;
 	}
