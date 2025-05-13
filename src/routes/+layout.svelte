@@ -18,5 +18,5 @@
 </main>
 
 <footer class="container-fluid" data-theme="dark">
-  <h5>&copy; KanesterP</h5>
+  <strong>&copy; KanesterP</strong>
 </footer>

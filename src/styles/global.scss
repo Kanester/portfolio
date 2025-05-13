@@ -17,14 +17,16 @@ section {
 	margin: 0;
 }
 
+p[data-theme='dark'] {
+	color: floralwhite;
+}
+
 .hero {
 	background-color: $secondary;
 	border-top: $border;
 }
 
 .herob {
-	margin: 1rem 0;
-
 	a {
 		margin: 1rem 0;
 	}
