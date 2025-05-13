@@ -6,7 +6,7 @@ $secondary: #393e46;
 $tertiary: #948979;
 $quadiary: #dfd0b8;
 
-nav {
+body {
 	background-color: $primary;
 }
 
@@ -22,10 +22,6 @@ section {
   .contact {
     background-color: $quadiary;
   }
-}
-
-footer {
-  background-color: $primary;
 }
 
 .desktop-nav {

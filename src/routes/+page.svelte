@@ -1,4 +1,4 @@
-<section class="container-fluid hero" data-theme="light">
+<section class="container-fluid hero" data-theme="dark">
   <div class="container">
     <hgroup>
       <h1>Hi y'all! I'm Kiö.</h1>
@@ -24,6 +24,6 @@
   </div>
 </section>
 
-<section class="contact">
+<section class="contact" data-theme="light">
   
 </section>
