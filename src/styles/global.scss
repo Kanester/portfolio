@@ -38,6 +38,10 @@ section[data-theme='dark'] {
 
 .about {
 	background-color: $tertiary;
+	
+	a {
+	  color: whitesmoke;
+	}
 }
 
 .contact {
