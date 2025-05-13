@@ -10,9 +10,12 @@ body {
 	background-color: $primary;
 }
 
+nav {
+	border-bottom: 0.5px solid #fff;
+}
+
 section {
 	margin: 0;
-	border-bottom: 1px solid #fff;
 }
 
 .hero {
