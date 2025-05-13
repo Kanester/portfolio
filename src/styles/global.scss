@@ -1,4 +1,4 @@
-@use '@picocss/pico/scss/pico' as pico with($theme-color: 'jade');
+@use '@picocss/pico/scss/pico' as pico with($theme-color: 'jade', $enable-responsive-spacings: true);
 @use 'sass:map';
 
 $primary: #222831;
