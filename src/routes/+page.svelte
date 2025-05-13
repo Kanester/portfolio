@@ -24,7 +24,7 @@
   </div>
 </section>
 
-<section class="contact" data-theme="light">
+<section class="contact" data-theme="light" id="contact">
   <div class="container">
     <div class="container-fluid">
       <h1>Contact Me</h1>
