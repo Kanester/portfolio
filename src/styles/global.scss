@@ -5,14 +5,11 @@ $primary: #222831;
 $secondary: #393e46;
 $tertiary: #948979;
 $quadiary: #dfd0b8;
+$border: 0.5 solid #fff;
+
 
 body {
 	background-color: $primary;
-}
-
-nav {
-	border-bottom: 0.5px solid #fff;
-	margin: 0;
 }
 
 section {
@@ -21,10 +18,12 @@ section {
 
 .hero {
 	background-color: $secondary;
+	border-top: $border;
 }
 
 .about {
 	background-color: $quadiary;
+	border-top: $border;
 }
 
 .desktop-nav {
