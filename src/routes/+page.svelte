@@ -19,7 +19,10 @@
   <div class="container-fluid">
     <div class="container">
       <h1>About Me!</h1>
-      <p>Still under construction...</p>
+      <p>I'm Kiö — a self-taught programmer who wandered into the web and still can’t get CSS to behave.</p>
+      <p>I build stuff that’s half serious, half chaotic. Everything’s an experiment — from web projects to CLI apps. This site? It’s my playground, my sandbox, my digital mess.</p>
+      <p>When I’m not lost in code, I’m diving into manhwa, vibing to J-pop, or writing overly complicated stories about broken characters (don’t judge).</p>
+      <p>If you’ve read this far, you’re either brave, foolish, or just vibing. Either way, <a href="#contact">reach out</a> and tell me what I’m doing wrong.</p>
     </div>
   </div>
 </section>
