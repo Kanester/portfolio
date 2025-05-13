@@ -10,18 +10,16 @@ body {
 	background-color: $primary;
 }
 
-section {
-  .hero {
-    background-color: $secondary;
-  }
-  
-  .about {
-    background-color: $tertiary;
-  }
-  
-  .contact {
-    background-color: $quadiary;
-  }
+.hero {
+	background-color: $secondary;
+}
+
+.about {
+	background-color: $tertiary;
+}
+
+.contact {
+	background-color: $quadiary;
 }
 
 .desktop-nav {
