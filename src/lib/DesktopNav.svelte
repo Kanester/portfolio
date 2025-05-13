@@ -1,7 +1,9 @@
 <script lang="ts">
-  export let base;
-  export let current;
-  export let links = [];
+  import {page} from "$app/stores";
+  import {base} from "$app/paths";
+  
+  const links = ["/", "/projects"];
+  $: current = $page.url.pathname.replace(/^\/portfolio/, "").replace(/\/$/, "") || "/";
 </script>
 
 <nav>

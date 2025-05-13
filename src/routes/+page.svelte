@@ -1,4 +1,4 @@
-<section class="container-fluid pico-background-azure-150" data-theme="light">
+<section class="container-fluid hero" data-theme="light">
   <div class="container">
     <hgroup>
       <h1>Hi y'all! I'm Kiö.</h1>
@@ -15,11 +15,15 @@
   </div>
 </section>
 
-<section data-theme="dark">
+<section class="about" data-theme="dark">
   <div class="container-fluid">
     <div class="container">
       <h1>About Me!</h1>
       <p>Still under construction...</p>
     </div>
   </div>
+</section>
+
+<section class="contact">
+  
 </section>

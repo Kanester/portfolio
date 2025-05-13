@@ -1,7 +1,9 @@
 <script lang="ts">
-  export let base;
-  export let current;
-  export let links = [];
+  import {page} from "$app/stores";
+  import {base} from "$app/paths";
+  
+  const links = ["/", "/projects"];
+  $: current = $page.url.pathname.replace(/^\/portfolio/, "").replace(/\/$/, "") || "/";
   
   let isClicked = false;
   let toggle = () => {
@@ -12,7 +14,9 @@
 <nav>
   <ul>
     <li>
-      <strong on:click={toggle} aria-label="Toggle navigation">&#9776;</strong>
+      <strong 
+        on:click={toggle}
+        aria-label="Toggle navigation">&#9776;</strong>
     </li>
   </ul>
   

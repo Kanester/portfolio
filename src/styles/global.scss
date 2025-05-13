@@ -1,24 +1,32 @@
-@use '@picocss/pico/scss/pico'
-	with(
-		$theme-color: 'jade',
-		$enable-responsive-spacings: true,
-		$enable-responsive-typography: true
-	);
-@use '@picocss/pico/scss/colors/utilities'
-	with(
-		$palette: (
-			'color-families': (
-				jade,
-				azure,
-				slate,
-				pumpkin,
-				amber
-			)
-		)
-	);
-@use '@picocss/pico/scss/settings' as settings;
+@use '@picocss/pico/scss/pico' as pico with($theme-color: 'jade');
 @use 'sass:map';
-@use 'sass:meta';
+
+$primary: #222831;
+$secondary: #393e46;
+$tertiary: #948979;
+$quadiary: #dfd0b8;
+
+nav {
+	background-color: $primary;
+}
+
+section {
+  .hero {
+    background-color: $secondary;
+  }
+  
+  .about {
+    background-color: $tertiary;
+  }
+  
+  .contact {
+    background-color: $quadiary;
+  }
+}
+
+footer {
+  background-color: $primary;
+}
 
 .desktop-nav {
 	display: block;
@@ -29,7 +37,7 @@
 }
 
 @mixin respond($size) {
-	$entry: map.get(settings.$breakpoints, $size);
+	$entry: map.get(pico.$breakpoints, $size);
 	$point: map.get($entry, 'breakpoint');
 
 	@media (max-width: $point) {
