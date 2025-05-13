@@ -2,14 +2,15 @@
   import "../styles/global.scss";
   import DesktopNav from "$lib/DesktopNav.svelte";
   import MobileNav from "$lib/MobileNav.svelte";
+  import Links from "$lib/Links.svelte"
 </script>
 
 <header class="container-fluid" data-theme="dark">
   <div class="desktop-nav">
-    <DesktopNav/>
+    <DesktopNav />
   </div>
   <div class="mobile-nav">
-    <MobileNav/>
+    <MobileNav />
   </div>
 </header>
 
@@ -21,11 +22,7 @@
   <p>&copy; 2025 Made by Kiö. All rights reserved.</p>
   
   <p>Links</p>
-  <a class="contrast" href="/portfolio">Home</a>
-  <a class="contrast" href="blog">Blog</a>
-  <a class="contrast" href="projects">Projects</a>
-  <a class="contrast" href="/portfolio/#about">About Me</a>
-  <a class="contrast" href="/portfolio/#contact">Contact</a>
+  <Links/>
   <hgroup>
     <p>Built with svelte + termux</p>
     <p>No bugs were harmed during development—only me &#x25C9;&#x2060;&#x203F;&#x2060;&#x25C9;</p>
