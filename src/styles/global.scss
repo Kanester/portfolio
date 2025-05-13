@@ -6,7 +6,6 @@ $primary: #222831;
 $secondary: #393e46;
 $tertiary: #948979;
 $quadiary: #dfd0b8;
-$border: 0.5 solid #fff;
 
 body {
 	background-color: $primary;
@@ -17,13 +16,14 @@ section {
 	margin: 0;
 }
 
-p[data-theme='dark'] {
-	color: floralwhite;
+section[data-theme='dark'] {
+  p {
+    color: #f2f2f2;
+  }
 }
 
 .hero {
 	background-color: $secondary;
-	border-top: $border;
 }
 
 .herob {
@@ -34,7 +34,6 @@ p[data-theme='dark'] {
 
 .about {
 	background-color: $tertiary;
-	border-top: $border;
 }
 
 .contact {
