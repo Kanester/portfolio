@@ -18,5 +18,13 @@
 </main>
 
 <footer class="container-fluid" data-theme="dark">
-  <strong>&copy; KanesterP</strong>
+  <p>&copy; 2025 Made by Kiö. All rights reserved.</p>
+  <nav>
+    <a href="/portfolio">Home</a>
+    <a href="blog">Blogs</a>
+    <a href="projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <p>Built with svelte + termux</p>
+  <p>No bugs were harmed during development—only me :)</p>
 </footer>
