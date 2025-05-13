@@ -15,6 +15,8 @@
   </div>
 </section>
 
+<hr/>
+
 <section class="about" data-theme="dark">
   <div class="container-fluid">
     <div class="container">
