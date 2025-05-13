@@ -1,4 +1,5 @@
-@use '@picocss/pico/scss/pico' as pico with($theme-color: 'jade', $enable-responsive-spacings: true);
+@use '@picocss/pico/scss/pico' as pico
+	with($theme-color: 'jade', $enable-responsive-spacings: true);
 @use 'sass:map';
 
 $primary: #222831;
@@ -22,9 +23,9 @@ section {
 }
 
 .herob {
-  a {
-    padding: 1rem 0;
-  }
+	a {
+		margin: 1rem 0;
+	}
 }
 
 .about {
