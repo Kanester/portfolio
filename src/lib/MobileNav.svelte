@@ -21,7 +21,7 @@
   </ul>
   
   <ul>
-    <li><strong class="logo">KV</strong></li>
+    <li><strong style="font-family: 'Sarina', cursive">KV</strong></li>
   </ul>
 </nav>
 

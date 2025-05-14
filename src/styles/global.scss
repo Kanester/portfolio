@@ -1,6 +1,7 @@
 @use '@picocss/pico/scss/pico' as pico
 	with($theme-color: 'jade', $enable-responsive-spacings: true);
 @use 'sass:map';
+@use './fonts';
 
 $primary: #222831;
 $secondary: #393e46;
@@ -27,18 +28,8 @@ section {
 	}
 }
 
-.logo {
-  font-family: "Sarina", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .hero {
 	background-color: $secondary;
-
-	> div a {
-		margin: 1rem 0;
-	}
 }
 
 .about {
