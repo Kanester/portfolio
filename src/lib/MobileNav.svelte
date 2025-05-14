@@ -1,5 +1,6 @@
 <script lang="ts">
   import Links from "./Links.svelte"
+  export let style:string;
   
   let isClicked = false;
   let toggle = () => {
@@ -7,7 +8,7 @@
   }
 </script>
 
-<nav>
+<nav class={style}>
   <ul>
     <li>
       <strong 
