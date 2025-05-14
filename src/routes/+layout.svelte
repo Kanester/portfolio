@@ -6,9 +6,9 @@
 </script>
 
 <header class="container-fluid" data-theme="dark">
-  <DesktopNav style="desktop-nav" />
-  <div class="container-fluid">
-    <MobileNav style="mobile-nav" />
+  <DesktopNav/>
+  <div class="container">
+    <MobileNav/>
   </div>
 </header>
 
