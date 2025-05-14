@@ -9,23 +9,24 @@ const config = {
 			includePaths: ['node_modules']
 		}
 	}),
+
 	kit: {
 		adapter: adapter({
 			fallback: 'index.html'
 		}),
 		paths: {
 			base: '/portfolio'
-		},
-
-		vite: {
-			plugins: [
-				purgecss({
-					content: ['./src/**/*.svelte', './src/**/*.html'],
-					safelist: [/^fa-/, /^pico-/, /-active$/],
-					defaultExtractor: (code) => code.match(/[\w-/:]+(?<!:)/g) || []
-				})
-			]
 		}
+	},
+
+	vite: {
+		plugins: [
+			purgecss({
+				content: ['./src/**/*.svelte', './src/**/*.html'],
+				safelist: [/^fa-/, /^pico-/, /-active$/],
+				defaultExtractor: (code) => code.match(/[\w-/:]+(?<!:)/g) || []
+			})
+		]
 	}
 };
 
