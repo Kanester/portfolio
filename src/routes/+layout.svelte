@@ -6,8 +6,8 @@
 </script>
 
 <header class="container-fluid" data-theme="dark">
+  <DesktopNav style="desktop-nav" />
   <div class="container-fluid">
-    <DesktopNav style="desktop-nav" />
     <MobileNav style="mobile-nav" />
   </div>
 </header>
