@@ -28,6 +28,14 @@ section {
 
 .about {
 	background-color: $color-about;
+
+	p {
+		color: white;
+	}
+
+	a {
+		color: #90ee90;
+	}
 }
 
 .contact {
