@@ -6,7 +6,7 @@
 </script>
 
 <header class="container-fluid" data-theme="dark">
-  <div class="container">
+  <div class="container-fluid">
     <DesktopNav style="desktop-nav" />
     <MobileNav style="mobile-nav" />
   </div>
