@@ -5,11 +5,9 @@
   import Links from "$lib/Links.svelte";
 </script>
 
-<header class="container-fluid" data-theme="dark">
+<header data-theme="dark">
   <DesktopNav/>
-  <div class="container">
-    <MobileNav/>
-  </div>
+  <MobileNav/>
 </header>
 
 <main>
