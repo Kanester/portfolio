@@ -51,7 +51,7 @@ section {
 	display: none;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 	.desktop-nav {
 		display: none;
 	}
