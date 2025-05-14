@@ -1,5 +1,5 @@
 <!-- Hero -->
-<section class="hero container" data-theme="dark">
+<section class="hero container-fluid" data-theme="dark">
   <hgroup>
     <h1>Hi y'all! I'm Kiö.</h1>
     <p>
@@ -24,7 +24,7 @@
 </section>
 
 <!-- About -->
-<section class="about container" id="about" data-theme="dark">
+<section class="about container-fluid" id="about" data-theme="dark">
   <h1>About Me!</h1>
   <p>
     I'm Kiö — a self-taught programmer who wandered into the web and still can’t
@@ -46,7 +46,7 @@
 </section>
 
 <!-- Contact -->
-<section class="contact container" id="contact" data-theme="light">
+<section class="contact container-fluid" id="contact" data-theme="light">
   <h1>Contact Me</h1>
   <ul>
     <li>
