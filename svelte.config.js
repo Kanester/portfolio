@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import purgecss from 'vite-plugin-purgecss';
 
 /** @type {import('sveltejs/kit').Config} **/
 const config = {
@@ -14,6 +15,16 @@ const config = {
 		}),
 		paths: {
 			base: '/portfolio'
+		},
+
+		vite: {
+			plugins: [
+				purgecss({
+					content: ['./src/**/*.svelte', './src/**/*.html'],
+					safelist: [/^fa-/, /^pico-/, /-active$/],
+					defaultExtractor: (code) => code.match(/[\w-/:]+(?<!:)/g) || []
+				})
+			]
 		}
 	}
 };
