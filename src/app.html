@@ -5,62 +5,39 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="color-scheme" content="light dark" />
 
-		<!-- Favicon -->
+		<!-- Favicon and Manifest -->
+		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
 		<link
 			rel="apple-touch-icon"
 			sizes="180x180"
 			href="%sveltekit.assets%/apple-touch-icon.png"
 		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="%sveltekit.assets%/favicon-32x32.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="%sveltekit.assets%/favicon-16x16.png"
-		/>
 		<link rel="manifest" href="%sveltekit.assets%/site.webmanifest" />
 
-		<!-- General meta -->
+		<!-- SEO -->
 		<title>Kiov | Portfolio</title>
 		<meta
 			name="description"
-			content="Explore Kiov's creative portfolio – a blend of coding, storytelling, and design. Discover unique projects, stories, and skills."
+			content="Explore Kiov's creative portfolio – a blend of coding, storytelling, and design."
 		/>
 		<meta name="author" content="Kiov" />
 
-		<!-- Open Graph -->
+		<!-- Social Media Preview -->
 		<meta property="og:title" content="Kiov | Portfolio" />
 		<meta
 			property="og:description"
 			content="A showcase of Kiov's creative work, coding projects, and digital storytelling."
 		/>
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://kanester.github.io/portfolio/" />
 		<meta
 			property="og:image"
 			content="https://kanester.github.io/portfolio/preview.png"
 		/>
-
-		<!-- Twitter Card -->
+		<meta property="og:url" content="https://kanester.github.io/portfolio/" />
+		<meta property="og:type" content="website" />
 		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="Kiov | Portfolio" />
-		<meta
-			name="twitter:description"
-			content="Dive into Kiov's digital world – coding, design, and storytelling."
-		/>
-		<meta
-			name="twitter:image"
-			content="https://kanester.github.io/portfolio/preview.png"
-		/>
 
 		%sveltekit.head%
 	</head>
-
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
