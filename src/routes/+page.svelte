@@ -1,5 +1,5 @@
 <!-- Hero -->
-<section class="hero container-fluid" data-theme="dark">
+<section class="bg-primary container-fluid" data-theme="dark">
   <hgroup>
     <h1>Hi y'all! I'm Kiö.</h1>
     <p>
@@ -23,13 +23,13 @@
   </div>
 </section>
 
-<section class="now container-fluid" id="now" data-theme="dark">
+<section class="bg-secondary container-fluid" id="now" data-theme="dark">
   <h1>Right Now!</h1>
   <p>No update as expected. LoL</p>
 </section>
 
 <!-- About -->
-<section class="about container-fluid" id="about" data-theme="dark">
+<section class="bg-secondary container-fluid" id="about" data-theme="dark">
   <h1>About Me!</h1>
   <p>
     Again I'm Kiö — a self-taught programmer who wandered into the chaotic world of the web; yet still — <abbr title="Chaotic Supplier of Suffering">CSS</abbr> is throwing a lot of tantrum...
@@ -50,7 +50,7 @@
   </p>
 </section>
 
-<section class="skillset container-fluid" id="skillset" data-theme="light">
+<section class="bg-tertiary container-fluid" id="skillset" data-theme="light">
   <h1>My Skillset</h1>
   <p>Not a master of anything, but here's what I'm jibering around.</p>
   <div class="container">
@@ -83,7 +83,7 @@
   </div>
 </section>
 
-<section class="toolbox container-fluid" id="toolbox" data-theme="light">
+<section class="bg-tertiary container-fluid" id="toolbox" data-theme="light">
   <h1>My Chaotic Toolset</h1>
   <p>I'm sure all dev will cry after reading this...</p>
   <ul>
@@ -104,16 +104,16 @@
   <p>Yea, I'm broke *insert crying emoji because i can't access my html entity generator for now*</p>
 </section>
 
-<section class="why container-fluid" id="why" data-theme="dark">
+<section class="container-fluid" id="why" data-theme="dark">
   <h1>Yeah, why do i build stuff?</h1>
 </section>
 
-<section class="fun container-fluid" id="fun" data-theme="dark">
+<section class="container-fluid" id="fun" data-theme="dark">
   <h1>Nothing but broke</h1>
 </section>
 
 <!-- Contact -->
-<section class="contact container-fluid" id="contact" data-theme="light">
+<section class="bg-tertiary container-fluid" id="contact" data-theme="light">
   <h1>Contact Me Using These</h1>
   <ul>
     <li>

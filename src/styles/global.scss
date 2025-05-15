@@ -22,11 +22,11 @@ section {
 	margin: 0;
 }
 
-.hero .why .fun {
+.bg-primary {
 	background-color: $primary;
 }
 
-.about .now {
+.bg-secondary {
 	background-color: $secondary;
 
 	p {
@@ -38,7 +38,7 @@ section {
 	}
 }
 
-.contact .skillset .toolbox {
+.bg-tertiary {
 	background-color: $tertiary;
 }
 
