@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: portfolio/
 
 Sitemap: https://kanester.github.io/portfolio/sitemap.xml
