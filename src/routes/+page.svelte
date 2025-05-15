@@ -2,7 +2,7 @@
 <section class="bg-primary container-fluid" data-theme="dark">
   <div class="grid gap-md">
     <hgroup>
-      <h1 style="text-align: center">Hi y'all! I'm <abbr data-tooltip="Call me Kiö or Kanester">KnxTr</abbr>.</h1>
+      <h1 style="text-align: center">Hi y'all! I'm <abbr data-tooltip="Call me Kiö or Kanester" aria-label="Call me Kiö or Kanester">KnxTr</abbr>.</h1>
       <p>
         A builder of lots of weird stuff on the web, sometimes on CLI; yet they
         work—somehow.. (&#x2060;&#x665;&#x2060;&#x21BC;&#x2060;_&#x2060;&#x21BC;&#x2060;)
@@ -22,8 +22,8 @@
   </div>
 
   <div class="grid gap-sm">
-    <a role="button" href="blog">Blog</a>
-    <a role="button" href="projects">Projects</a>
+    <a aria-label="Blog Button" role="button" href="blog">Blog</a>
+    <a aria-label="Project Button" role="button" href="projects">Projects</a>
   </div>
 </section>
 
@@ -37,7 +37,7 @@
 <section class="bg-secondary container-fluid" id="about" data-theme="dark">
   <h1>About Me!</h1>
   <p>
-    Again I'm Kiö — a self-taught programmer who wandered into the chaotic world of the web; yet still — <abbr data-tooltip="Chaotic Supplier of Suffering">CSS</abbr> is throwing a lot of tantrum...
+    Again I'm Kiö — a self-taught programmer who wandered into the chaotic world of the web; yet still — <abbr data-tooltip="Chaotic Supplier of Suffering" aria-label="Chaotic Supplier of Suffering">CSS</abbr> is throwing a lot of tantrum...
   </p>
   <p>
     I build stuff that’s half serious, half chaotic. Everything’s an experiment
@@ -63,27 +63,27 @@
     <ul>
       <li>
         <strong>HTML/CSS</strong>:
-        <progress max="100"/>
+        <progress aria-label="HTML/CSS — It's a Chaotic Hell" max="100" aria-valuemax="100"/>
         <p>Intermediate-ish — CSS still hunts me.</p>
       </li>
       <li>
         <strong>Javascript/Typescript</strong>:
-        <progress value="60" max="100"/>
+        <progress aria-valuenow="60" aria-valuemax="100" value="60" max="100"/>
         <p>Pretty much okay..</p>
       </li>
       <li>
         <strong>Python</strong>:
-        <progress value="40" max="100"/>
+        <progress aria-valuenow="40" aria-valuemax="100" value="40" max="100"/>
         <p>It's good, just doesn't like multiple modules.</p>
       </li>
       <li>
         <strong>CLI</strong>
-        <progress value="50" max="100"/>
+        <progress aria-valuemax="100" aria-valuenow="50" value="50" max="100"/>
         <p>That's a strong 50:50</p>
       </li>
       <li>
         <strong>Git/Version Control</strong>
-        <progress value="30" max="100"/>
+        <progress aria-valuenow="30" aria-valuemax="100" value="30" max="100"/>
         <p>Well.. I could <code>git add</code>, <code>git commit</code>, and <code>git push</code> — it counts right?</p>
       </li>
     </ul>

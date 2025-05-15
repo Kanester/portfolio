@@ -6,7 +6,7 @@
 @use './fonts';
 
 $primary: #393e46;
-$secondary: #948979;
+$secondary: #5c5248;
 $tertiary: #dfd0b8;
 $main: #222831;
 
@@ -16,6 +16,7 @@ html {
 
 body {
 	background-color: $main;
+	color: #eaeaea;
 }
 
 section {
@@ -30,17 +31,32 @@ section {
 .bg-secondary {
 	background-color: $secondary;
 
-	p {
-		color: white;
+	p,
+	li,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: #f0f0f0;
 	}
 
 	a {
-		color: #90ee90;
+		color: #a1e5a1;
 	}
 }
 
 .bg-tertiary {
 	background-color: $tertiary;
+	
+	p, li, h1, h2, h3, h4, h5, h6 {
+	  color: #1a1a1a;
+	}
+	
+	a {
+	  color: #0f766e;
+	}
 }
 
 .desktop-nav {
