@@ -2,7 +2,7 @@
 <section class="bg-primary container-fluid" data-theme="dark">
   <div class="grid gap-md">
     <hgroup>
-      <h1 style="text-align: center">Hi y'all! I'm <abbr title="Call me Kio or Kanester">KnxTr</abbr>.</h1>
+      <h1 style="text-align: center">Hi y'all! I'm <abbr data-tooltip="Call me Kiö or Kanester">KnxTr</abbr>.</h1>
       <p>
         A builder of lots of weird stuff on the web, sometimes on CLI; yet they
         work—somehow.. (&#x2060;&#x665;&#x2060;&#x21BC;&#x2060;_&#x2060;&#x21BC;&#x2060;)
@@ -37,7 +37,7 @@
 <section class="bg-secondary container-fluid" id="about" data-theme="dark">
   <h1>About Me!</h1>
   <p>
-    Again I'm Kiö — a self-taught programmer who wandered into the chaotic world of the web; yet still — <abbr title="Chaotic Supplier of Suffering">CSS</abbr> is throwing a lot of tantrum...
+    Again I'm Kiö — a self-taught programmer who wandered into the chaotic world of the web; yet still — <abbr data-tooltip="Chaotic Supplier of Suffering">CSS</abbr> is throwing a lot of tantrum...
   </p>
   <p>
     I build stuff that’s half serious, half chaotic. Everything’s an experiment
