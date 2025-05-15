@@ -2,6 +2,8 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import purgecss from 'vite-plugin-purgecss';
 
+const basePath = process.env.BASE_PATH || '/portfolio';
+
 /** @type {import('sveltejs/kit').Config} **/
 const config = {
 	preprocess: vitePreprocess({
@@ -15,7 +17,7 @@ const config = {
 			fallback: 'index.html'
 		}),
 		paths: {
-			base: '/portfolio'
+			base: basePath
 		}
 	},
 
