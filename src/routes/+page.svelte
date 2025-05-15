@@ -1,21 +1,25 @@
 <!-- Hero -->
 <section class="bg-primary container-fluid" data-theme="dark">
-  <hgroup>
-    <h1>Hi y'all! I'm Kiö.</h1>
-    <p>
-      A builder of lots of weird stuff on the web, sometimes on CLI; yet they
-      work—somehow.. (&#x2060;&#x665;&#x2060;&#x21BC;&#x2060;_&#x2060;&#x21BC;&#x2060;)
-    </p>
-    <p>Programmer, storyteller, and CSS is a nightmare.</p>
-    <p>
-      This is my corner of the web where <strong><i>I</i></strong> pretend to know
-      what in <strong>hell</strong> I'm doing...
-    </p>
-    <p>
-      <i>Tell me I'm wrong</i> → 
-      <a class="contrast" href="#contact">Contact</a>
-    </p>
-  </hgroup>
+  <div class="grid gap-md">
+    <hgroup style="text-align: center;">
+      <h1>Hi y'all! I'm Kiö.</h1>
+      <p>
+        A builder of lots of weird stuff on the web, sometimes on CLI; yet they
+        work—somehow.. (&#x2060;&#x665;&#x2060;&#x21BC;&#x2060;_&#x2060;&#x21BC;&#x2060;)
+      </p>
+      <p>Programmer, storyteller, and CSS is a nightmare.</p>
+      <p>
+        This is my corner of the web where <strong><i>I</i></strong> pretend to know
+        what in <strong>hell</strong> I'm doing...
+      </p>
+      <p>
+        <i>Tell me I'm wrong</i> → 
+        <a class="contrast" href="#contact">Contact</a>
+      </p>
+    </hgroup>
+    
+    <img src="/images/undraw_hello_ccwj.svg"/>
+  </div>
 
   <div class="grid gap-sm">
     <a role="button" href="blog">Blog</a>
