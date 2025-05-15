@@ -4,8 +4,9 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
+	  "deploy": "BASE_PATH='/KnxTr' vite build",
 		"dev": "vite dev",
-		"build": "BASE_PATH='/KnxTr' vite build",
+		"build": "BASE_PATH='/portfolio' vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",

@@ -7,8 +7,6 @@ on:
 jobs:
   build_site:
     runs-on: ubuntu-latest
-    env:
-      BASE_PATH: '/portfolio'
 
     steps:
       - name: Checkout
