@@ -15,7 +15,7 @@
 </main>
 
 <footer class="container-fluid" data-theme="dark">
-  <p>&copy; 2025 Made by Kanester(Kiö). All rights reserved.</p>
+  <p>&copy; 2025 Made by Kanester(KnxTr). All rights reserved.</p>
   <p>Links</p>
   <Links />
   <p>Built with svelte + termux</p>

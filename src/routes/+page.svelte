@@ -2,7 +2,7 @@
 <section class="bg-primary container-fluid" data-theme="dark">
   <div class="grid gap-md">
     <hgroup>
-      <h1 style="text-align: center">Hi y'all! I'm Kiö.</h1>
+      <h1 style="text-align: center">Hi y'all! I'm <abbr title="Call me Kio or Kanester">KnxTr</abbr>.</h1>
       <p>
         A builder of lots of weird stuff on the web, sometimes on CLI; yet they
         work—somehow.. (&#x2060;&#x665;&#x2060;&#x21BC;&#x2060;_&#x2060;&#x21BC;&#x2060;)
@@ -115,7 +115,7 @@
 <!-- WHY? JUST WHY? -->
 <section class="bg-secondary container-fluid" id="why" data-theme="dark">
   <h1>Why do I build?</h1>
-  <p>I build stuff just for fun.  Right now, This is a little hobbie. Especially when i don't have mobile load — I can edit stuffs while offline with Acode.</p>
+  <p>I build stuff just for fun.  Right now, This is now little hobbu. Especially when I don't have mobile load — I can edit stuffs while offline with Acode.</p>
 </section>
 
 <!-- Fun, yeah Fun; very fun -->
