@@ -1,8 +1,8 @@
 <!-- Hero -->
 <section class="bg-primary container-fluid" data-theme="dark">
   <div class="grid gap-md">
-    <hgroup style="text-align: center;">
-      <h1>Hi y'all! I'm Kiö.</h1>
+    <hgroup>
+      <h1 style="text-align: center">Hi y'all! I'm Kiö.</h1>
       <p>
         A builder of lots of weird stuff on the web, sometimes on CLI; yet they
         work—somehow.. (&#x2060;&#x665;&#x2060;&#x21BC;&#x2060;_&#x2060;&#x21BC;&#x2060;)
@@ -18,7 +18,7 @@
       </p>
     </hgroup>
     
-    <img src="/images/undraw_hello_ccwj.svg"/>
+    <img src="images/undraw_hello_ccwj.svg" alt="hello.svg"/>
   </div>
 
   <div class="grid gap-sm">
