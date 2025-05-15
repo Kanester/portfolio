@@ -23,9 +23,10 @@
   </div>
 </section>
 
+<!-- Right Now updates -->
 <section class="bg-secondary container-fluid" id="now" data-theme="dark">
   <h1>Right Now!</h1>
-  <p>No update as expected. LoL</p>
+  <p>No update as expected. LoL — still suffering..</p>
 </section>
 
 <!-- About -->
@@ -50,6 +51,7 @@
   </p>
 </section>
 
+<!-- skillset -->
 <section class="bg-tertiary container-fluid" id="skillset" data-theme="light">
   <h1>My Skillset</h1>
   <p>Not a master of anything, but here's what I'm jibering around.</p>
@@ -83,6 +85,7 @@
   </div>
 </section>
 
+<!-- toolbox -->
 <section class="bg-tertiary container-fluid" id="toolbox" data-theme="light">
   <h1>My Chaotic Toolset</h1>
   <p>I'm sure all dev will cry after reading this...</p>
@@ -101,14 +104,16 @@
     </li>
   </ul>
   
-  <p>Yea, I'm broke *insert crying emoji because i can't access my html entity generator for now*</p>
+  <p>Yea, I'm broke (&#x2060;&#x2565;&#x2060;&#xFE4F;&#x2060;&#x2565;&#x2060;)</p>
 </section>
 
-<section class="container-fluid" id="why" data-theme="dark">
+<!-- WHY? JUST WHY? -->
+<section class="bg-secondary container-fluid" id="why" data-theme="dark">
   <h1>Yeah, why do i build stuff?</h1>
 </section>
 
-<section class="container-fluid" id="fun" data-theme="dark">
+<!-- Fun, yeah Fun; very fun -->
+<section class="bg-secondary container-fluid" id="fun" data-theme="dark">
   <h1>Nothing but broke</h1>
 </section>
 
