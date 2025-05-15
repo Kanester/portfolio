@@ -24,7 +24,8 @@
 </section>
 
 <section class="now container-fluid" id="now" data-theme="dark">
-  
+  <h1>Right Now!</h1>
+  <p>No update as expected. LoL</p>
 </section>
 
 <!-- About -->
@@ -49,35 +50,37 @@
   </p>
 </section>
 
-<section class="skillsetcontainer-fluid" id="skillset" data-theme="light">
+<section class="skillset container-fluid" id="skillset" data-theme="light">
   <h1>My Skillset</h1>
   <p>Not a master of anything, but here's what I'm jibering around.</p>
-  <ul>
-    <li>
-      <strong>HTML/CSS</strong>:
-      <progress max="100"/>
-      <p>Intermidiate-ish — CSS still hunts me.</p>
-    </li>
-    <li>
-      <strong>Javascript/Typescript</strong>:
-      <progress value="60" max="100"/>
-      <p>Pretty much okay..</p>
-    </li>
-    <li>
-      <strong>Python</strong>:
-      <progress value="40" max="100"/>
-      <p>It's good, just doesn't like multiple modules.</p>
-    </li>
-    <li>
-      <strong>CLI</strong>
-      <progress value="50" max="100"/>
-      <p>That's a strong 50:50</p>
-    </li>
-    <li>
-      <strong>Git/Version Control</strong>
-      <p>Well.. I could <code>git add</code>, <code>git commit</code>, and <code>git push</code> — does that count?</p>
-    </li>
-  </ul>
+  <div class="container">
+    <ul>
+      <li>
+        <strong>HTML/CSS</strong>:
+        <progress max="100"/>
+        <p>Intermidiate-ish — CSS still hunts me.</p>
+      </li>
+      <li>
+        <strong>Javascript/Typescript</strong>:
+        <progress value="60" max="100"/>
+        <p>Pretty much okay..</p>
+      </li>
+      <li>
+        <strong>Python</strong>:
+        <progress value="40" max="100"/>
+        <p>It's good, just doesn't like multiple modules.</p>
+      </li>
+      <li>
+        <strong>CLI</strong>
+        <progress value="50" max="100"/>
+        <p>That's a strong 50:50</p>
+      </li>
+      <li>
+        <strong>Git/Version Control</strong>
+        <p>Well.. I could <code>git add</code>, <code>git commit</code>, and <code>git push</code> — does that count?</p>
+      </li>
+    </ul>
+  </div>
 </section>
 
 <section class="toolbox container-fluid" id="toolbox" data-theme="light">
@@ -90,7 +93,7 @@
     </li>
     <li>
       <strong>Phone (with android 14)</strong>
-      <p>It clashes with my termux...</p>
+      <p>It clashes with termux — unfortunate..</p>
     </li>
     <li>
       <strong>Acode (android)</strong>
@@ -102,11 +105,11 @@
 </section>
 
 <section class="why container-fluid" id="why" data-theme="dark">
-  
+  <h1>Yeah, why do i build stuff?</h1>
 </section>
 
 <section class="fun container-fluid" id="fun" data-theme="dark">
-  
+  <h1>Nothing but broke</h1>
 </section>
 
 <!-- Contact -->
