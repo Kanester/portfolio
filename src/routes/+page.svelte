@@ -80,7 +80,7 @@
       <li>
         <strong>Git/Version Control</strong>
         <progress value="30" max="100"/>
-        <p>Well.. I could <code>git add</code>, <code>git commit</code>, and <code>git push</code> — it counts right?</pr>
+        <p>Well.. I could <code>git add</code>, <code>git commit</code>, and <code>git push</code> — it counts right?</p>
       </li>
     </ul>
   </div>
