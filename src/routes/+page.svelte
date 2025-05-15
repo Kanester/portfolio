@@ -60,7 +60,7 @@
       <li>
         <strong>HTML/CSS</strong>:
         <progress max="100"/>
-        <p>Intermidiate-ish — CSS still hunts me.</p>
+        <p>Intermediate-ish — CSS still hunts me.</p>
       </li>
       <li>
         <strong>Javascript/Typescript</strong>:
@@ -79,7 +79,8 @@
       </li>
       <li>
         <strong>Git/Version Control</strong>
-        <p>Well.. I could <code>git add</code>, <code>git commit</code>, and <code>git push</code> — does that count?</p>
+        <progress value="30" max="100"/>
+        <p>Well.. I could <code>git add</code>, <code>git commit</code>, and <code>git push</code> — it counts right?</pr>
       </li>
     </ul>
   </div>
@@ -109,12 +110,24 @@
 
 <!-- WHY? JUST WHY? -->
 <section class="bg-secondary container-fluid" id="why" data-theme="dark">
-  <h1>Yeah, why do i build stuff?</h1>
+  <h1>Why do I build?</h1>
+  <p>I build stuff just for fun.  Right now, This is a little hobbie. Especially when i don't have mobile load — I can edit stuffs while offline with Acode.</p>
 </section>
 
 <!-- Fun, yeah Fun; very fun -->
 <section class="bg-secondary container-fluid" id="fun" data-theme="dark">
-  <h1>Nothing but broke</h1>
+  <h1>Some Fun Facts About Me.</h1>
+  <ul>
+    <li>
+      <p>I hate designing UI.</p>
+    </li>
+    <li>
+      <p>I like cats.</p>
+    </li>
+    <li>
+      <p>I created this site with my phone.</p>
+    </li>
+  </ul>
 </section>
 
 <!-- Contact -->
