@@ -38,7 +38,8 @@ section {
 	h3,
 	h4,
 	h5,
-	h6 {
+	h6,
+	strong {
 		color: #f0f0f0;
 	}
 
@@ -49,13 +50,30 @@ section {
 
 .bg-tertiary {
 	background-color: $tertiary;
-	
-	p, li, h1, h2, h3, h4, h5, h6 {
-	  color: #1a1a1a;
+
+	p,
+	li,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: #1a1a1a;
 	}
-	
+
+	code,
+	pre {
+		color: #f5f5f5;
+		background-color: #2d2d2d;
+	}
+
+	strong {
+		color: #222;
+	}
+
 	a {
-	  color: #0f766e;
+		color: #004466;
 	}
 }
 
