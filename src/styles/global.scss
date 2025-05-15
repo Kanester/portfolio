@@ -4,10 +4,10 @@
 
 @use './fonts';
 
-$color-hero: #393e46;
-$color-about: #948979;
-$color-contact: #dfd0b8;
-$bg-main: #222831;
+$primary: #393e46;
+$secondary: #948979;
+$tertiary: #dfd0b8;
+$main: #222831;
 
 html {
 	scroll-behavior: smooth;
@@ -22,12 +22,12 @@ section {
 	margin: 0;
 }
 
-.hero {
-	background-color: $color-hero;
+.hero .why .fun {
+	background-color: $primary;
 }
 
-.about {
-	background-color: $color-about;
+.about .now {
+	background-color: $secondary;
 
 	p {
 		color: white;
@@ -38,8 +38,8 @@ section {
 	}
 }
 
-.contact {
-	background-color: $color-contact;
+.contact .skillset .toolbox {
+	background-color: $tertiary;
 }
 
 .desktop-nav {

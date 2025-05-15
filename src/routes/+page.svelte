@@ -55,22 +55,22 @@
   <ul>
     <li>
       <strong>HTML/CSS</strong>:
-      <progress />
+      <progress max="100"/>
       <p>Intermidiate-ish — CSS still hunts me.</p>
     </li>
     <li>
       <strong>Javascript/Typescript</strong>:
-      <progress value="60"/>
+      <progress value="60" max="100"/>
       <p>Pretty much okay..</p>
     </li>
     <li>
       <strong>Python</strong>:
-      <progress value="40"/>
+      <progress value="40" max="100"/>
       <p>It's good, just doesn't like multiple modules.</p>
     </li>
     <li>
       <strong>CLI</strong>
-      <progress value="50" />
+      <progress value="50" max="100"/>
       <p>That's a strong 50:50</p>
     </li>
     <li>
